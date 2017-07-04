@@ -11,12 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankLocator.iOS", "BankLoca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankLocator.UWP", "BankLocator\BankLocator.UWP\BankLocator.UWP.csproj", "{BCF9B1C9-00C4-47EB-9311-E9ECAC5E8B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankLocator.Api", "BankLocator.Api\BankLocator.Api.csproj", "{DD177DA3-E758-4508-AFC9-6B0747A6FE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankLocator.Api", "BankLocator.Api\BankLocator.Api.csproj", "{DD177DA3-E758-4508-AFC9-6B0747A6FE73}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BankLocator\BankLocator\BankLocator.projitems*{1631e9a8-1181-48df-bb7b-22ce4117a5b4}*SharedItemsImports = 13
 		BankLocator\BankLocator\BankLocator.projitems*{3d75c0e7-8551-4741-be20-33e0054c450a}*SharedItemsImports = 4
+		BankLocator\BankLocator\BankLocator.projitems*{bcf9b1c9-00c4-47eb-9311-e9ecac5e8b33}*SharedItemsImports = 4
 		BankLocator\BankLocator\BankLocator.projitems*{e537e9d9-8302-4b3e-83f0-e6e9a1feaf44}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
