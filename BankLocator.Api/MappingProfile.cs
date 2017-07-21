@@ -1,10 +1,6 @@
 ﻿using AutoMapper;
 using BankLocator.Api.Models;
 using BankLocator.Api.Tasks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BankLocator.Api
 {
@@ -13,6 +9,11 @@ namespace BankLocator.Api
         public MappingProfile()
         {
             CreateMap<Location, Bankoffice>()
+                .ForMember(c => c.Company, option => option.Ignore())
+                .ForMember(c => c.BankofficeID, option => option.Ignore());
+
+            CreateMap<Agence, Bankoffice>()
+                .ForMember(dest => dest.Name, option => option.MapFrom(src => src.Nom))
                 .ForMember(c => c.Company, option => option.Ignore())
                 .ForMember(c => c.BankofficeID, option => option.Ignore());
         }

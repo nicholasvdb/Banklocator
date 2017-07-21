@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace BankLocator.Api.Models
+﻿namespace BankLocator.Api.Models
 {
     public class Bankoffice
     {

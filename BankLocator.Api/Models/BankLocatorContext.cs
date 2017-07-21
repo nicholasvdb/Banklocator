@@ -1,5 +1,4 @@
-﻿using BankLocator.Api.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace BankLocator.Api.Models
 {
